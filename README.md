@@ -22,7 +22,6 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 # Developed by: Hari Prasath. P
 # RegisterNumber:  212223230070
 
-```
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 data=pd.read_csv("/content/Employee.csv")
@@ -50,7 +49,6 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 plt.figure(figsize=(18,6))
 plot_tree(dt,feature_names=x.columns,class_names=['salary','left'],filled=True)
 plt.show()
-
 ```
 
 ## Output:
