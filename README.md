@@ -75,7 +75,7 @@ data["left"].value_counts()
 
 
 ```
-Predection
+Prediction:
 ```
 ![Screenshot 2024-09-27 134928](https://github.com/user-attachments/assets/20ebed51-fc30-42f2-a75e-a63e3e190931)
 
